@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Task Tracker</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body id="main">
+	
+    <div class="position">
+	<header>
+<input type="text" id="dayOfWeek" placeholder="Title of list.."/>  
+<!-- <h1 id="title-align">'s List</h1> -->
+</header>
+
+<section>
+<div id="form-to" class="header">
+            <input type="text" id="item-input" placeholder="Write list item here...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  <ul id="list-items">
+            <li type="checkbox" class="checked tasks">Create website</li>
+        <li type="checkbox" class="tasks">Find recruiter</li>
+   
+  </ul>
+
+  <button id="saveButton">Save Current List</button>
+</section>
+</div>
+
+<aside>
+    <div id="stored-lists">
+<ul>
+    <li></li>
+</ul>
+
+    </div>
+</aside>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
